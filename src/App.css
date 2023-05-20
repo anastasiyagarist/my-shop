@@ -13,26 +13,70 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-link {
+  color: #ff7cf6;
+}
+
+
+.textFooter{
+  background-image: linear-gradient(to right, #a180f4, #3ba3f2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.col-md-2{
+  background: #50adc2;
+}
+
+
+a{
+  
+  background-image: linear-gradient(to right, #61059e, #12c2e9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgb(182, 21, 231);
+}
+
+#div1{
+  font-size: 30px;
+  width: 60%;
+  background-image: linear-gradient(to right, #9e3ae1, #292379);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#divImg{
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  
+;
+}
+#div2{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+}
+.btn-primary{
+  background-image: linear-gradient(to right, #61059e, #12c2e9);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  .slider1{
+    color: #41319c;
   }
-}
+  
+  .slader2{
+    color: #184838;
+  }
